@@ -1,0 +1,269 @@
+#GB_overlay {
+  background-image: url(overlay.png); 
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  display: none;
+}
+
+* html #GB_overlay {
+  background-color: #000;
+  background-color: transparent;
+  background-image: url(blank.gif);
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="js/jquery/greybox/overlay.png", sizingMethod="scale");
+}
+
+#GB_window_confirm_leave {
+	margin: 10px;
+	padding: 40px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	overflow: hidden;
+	width: 400px;
+	height: 400px;
+	z-index: 150;
+	display: none;
+	background-color: transparent;
+	background: transparent url(../../../assets/shared/confirm_leave_bg.png) no-repeat 0 0;
+}
+
+#GB_window_add_this {
+	margin: 0px 10px 10px 10px;
+	padding: 18px 60px 60px 60px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	overflow: hidden;
+	width: 400px;
+	height: 400px;
+	z-index: 150;
+	display: none;
+	background-color: transparent;
+	background: transparent url(../../../assets/shared/add_this_bg.png) no-repeat 0 0;
+}
+
+#GB_window_video_player {
+	margin: 10px;
+	padding: 36px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	overflow: hidden;
+	width: 400px;
+	height: 400px;
+	z-index: 150;
+	display: none;
+	background: transparent url(../../../assets/shared/video_player_bg.png) no-repeat 0 0;
+}
+
+#GB_window_video_player img {
+  position: absolute;
+  top: 2px;
+  right: 5px;
+  cursor: pointer;
+  cursor: hand;
+}
+
+#GB_window_add_friends {
+	margin: 10px;
+	padding: 40px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	overflow: hidden;
+	width: 400px;
+	height: 400px;
+	z-index: 150;
+	display: none;
+	background-color: transparent;
+	background: transparent url(../../../assets/shared/add_friends_bg.png) no-repeat 0 0;
+}
+
+#GB_window_official_rules {
+	margin: 10px;
+	padding: 40px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	overflow: hidden;
+	width: 400px;
+	height: 400px;
+	z-index: 150;
+	display: none;
+	background-color: transparent;
+	background: transparent url(../../../assets/shared/official_rules_bg.png) no-repeat 0 0;
+}
+
+#GB_window_favorite_limit {
+	margin: 10px;
+	padding: 40px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	overflow: hidden;
+	width: 400px;
+	height: 400px;
+	z-index: 150;
+	display: none;
+	background-color: transparent;
+	background: transparent url(../../../assets/shared/favorite_limit_bg.png) no-repeat 0 0;
+}
+
+#GB_window_sweepstakes_detail {
+	margin: 10px;
+	padding: 40px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	overflow: hidden;
+	width: 400px;
+	height: 400px;
+	z-index: 150;
+	display: none;
+	background-color: transparent;
+	background: transparent url(../../../assets/shared/sweepstakes_detail_bg.png) no-repeat 0 0;
+}
+
+#GB_window_image_popup {
+	margin: 10px;
+	padding: 24px 40px 40px 40px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	overflow: hidden;
+	width: 400px;
+	height: 400px;
+	z-index: 150;
+	display: none;
+	background-color: transparent;
+	background: transparent url(../../../assets/shared/image_popup_bg.png) no-repeat 0 0;
+}
+
+#GB_window_mission_details {
+	margin: 10px;
+	padding: 24px 40px 40px 40px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	overflow: hidden;
+	width: 400px;
+	height: 400px;
+	z-index: 150;
+	display: none;
+	background-color: transparent;
+	background: transparent url(../../../assets/missions/mission_details_bg.png) no-repeat 0 0;
+}
+
+
+#GB_window_screenshot_viewer {
+	margin: 10px;
+	padding: 24px 40px 40px 40px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	overflow: hidden;
+	width: 400px;
+	height: 900px;
+	z-index: 150;
+	display: none;
+	/*background: transparent url(../../../assets/missions/mission_details_bg.png) no-repeat 0 0;*/
+}
+
+
+
+
+
+
+#GB_window_forgot_password {
+	margin: 10px;
+	padding: 40px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	overflow: hidden;
+	width: 400px;
+	height: 400px;
+	z-index: 150;
+	display: none;
+	background-color: transparent;
+	background: transparent url(../../../assets/shared/confirm_leave_bg.png) no-repeat 0 0;
+}
+
+
+#GB_frame {
+  border: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  /*background-color: #000;*/
+}
+
+#GB_caption {
+  font: 12px bold helvetica, verdana, sans-serif;
+  color: #fff;
+  background: #888;
+  padding: 2px 0 2px 5px;
+  margin: 0;
+  text-align: left;
+}
+
+#GB_window_confirm_leave img {
+  position: absolute;
+  top: 2px;
+  right: 5px;
+  cursor: pointer;
+  cursor: hand;
+}
+
+#GB_window_image_popup img {
+  position: absolute;
+  top: 2px;
+  right: 5px;
+  cursor: pointer;
+  cursor: hand;
+}
+
+
+.confirm_leave #container .text_container .password_text {
+	display: block;
+	padding: 15px 25px 25px 25px;
+	color: #edc640;
+	font-size: 10px;
+	text-align: center;
+}
+
+.confirm_leave #container .text_container .password_text fieldset {
+	margin: 0px auto;
+	position: relative;
+}
+
+.confirm_leave #container .text_container .password_text fieldset legend {
+	display: block;
+	color: #e0b211;
+	font-weight: bold;
+}
+
+.confirm_leave #container .text_container .password_text fieldset p {
+	padding: 0;
+	margin: 2px 0 0 0;
+	color: #839656;
+}
+
+.confirm_leave #container .text_container .password_text fieldset form {
+	width: 284px;
+	margin: 0px auto;
+	padding-top: 0px;
+}
+
+.confirm_leave #container .text_container .password_text fieldset #email_address {
+	background: transparent url(../../../assets/shared/bg_forgot_password_field.gif) no-repeat;
+	border: 0;
+	width: 284px;
+	height: 18px;
+	font-size: 10px;
+	color: #839656;
+	padding: 3px;
+}

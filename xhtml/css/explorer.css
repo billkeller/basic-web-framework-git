@@ -1,0 +1,17 @@
+/* --------------------------------------------------------------------------------------------------------------------------
+EXPLORER.CSS = SITE SPECIFIC INTERNET EXPLORER CSS HACKS
+This file is used only in Internet Explorer, all versions
+2A suggests you follow these rules:
+- For IE 6 avoid using alpha-transparent png hack & replace them w/ .gifs (or non alpha-pngs) instead
+- Do not focus on precise layout for IE 6, practice Graceful degradation
+---------------------------------------------------------------------------------------------------------------------------
+IE 6 AND IE 7 hacks, overwrite site.css
+ - use normal selectors: .foo {}
+---------------------------------------------------------------------------------------------------------------------------*/
+.foo {}
+/* ---------------------------------------------------------------------------------------------------------------------------
+IE 6 ONLY using root node selector: * html .foo {}
+sample png hack, path to png must be relative to document, not CSS (use absolute path)
+* html .foo {filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/templates/assets/name-of-file.png", sizingMethod="image");}
+------------------------------------------------------------------------------------------------------------------------------*/
+* html .foo {}

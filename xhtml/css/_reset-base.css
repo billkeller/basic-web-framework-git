@@ -1,0 +1,150 @@
+/* ----------------------------------------------------------
+DO NOT EDIT THIS DEFAULT STYLESHEET
+Resets all styles & provides basic base styles
+
+Last updated: 05/02/08
+bkeller@2advanced.com
+Modified to use 16px line-height
+-------------------------------------------------------------
+Most reset elements taken from:
+http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/
+
+Notes:
+We're reseting specific elements to avoid reseting inputs, textareas.
+We're also using inherit for font resets, which IE doesn't honor.
+
+------------------------------------------------------------ */
+html {overflow-y:scroll;}
+html, body, div, span, applet, object,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+	}
+
+:focus {outline: 0;}
+body {
+	line-height: 1;
+	color: #000;
+	background: #fff;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	empty-cells:show;
+	}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+	}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	assets: " ";
+}
+blockquote, q {
+	quotes: "" "";
+}
+textarea {overflow-y:auto;}
+
+/* ----------------------------------------------------------
+BASE STYLES
+Last updated: 05/02/08
+-------------------------------------------------------------
+started from: http://monc.se/tripoli/index.html
+
+See more:
+http://del.icio.us/soupenvy/css+framework
+------------------------------------------------------------ */
+
+hr {display: none;}
+.clear {clear: both;}
+.left {float: left;}
+.right {float: right;}
+.hide {display: none;}
+.empty {visibility: hidden;}
+
+/* [type]------------------------------------------------------------------ */
+strong {font-weight: bold;}
+em {font-style: italic;}
+small {font-size: 11px;}
+
+p, address, .adr {margin-bottom: 16px;}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: bold;
+}
+
+/* H1 is generally used for logo & that's it */
+h1,h2 {
+	font-size: 26px;
+	line-height: 36px;
+  	margin-bottom: 16px;
+	}
+h3 {
+	font-size: 18px;
+	line-height: 18px;
+	margin-bottom: 18px;
+	}
+h4 {
+	font-size: 14px;
+	line-height: 18px;
+	}
+
+h5,h6 {
+	font-size: 12px;
+	line-height: 18px;
+	}
+
+/* generic, generally for use within assets */
+ul, ol {
+  margin: 18px 0;
+  padding-left: 16px;
+  list-style-position: inside;
+  list-style-type: disc;
+}
+ol {list-style-type: decimal;}
+
+dl {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+dl dt {
+  font-weight: bold;
+}
+table {margin-bottom:18px;}
+blockquote {
+  margin: 18px 0;
+  padding: 17px 18px 0 17px;
+  font-style: italic;
+}
+
+
+/* [forms]-------------------------------------------------------------- */
+/*
+We don't need this on COD!
+
+fieldset {border: 1px solid #ccc;}
+textarea, input[type='text'], select {border: 1px solid #ccc;}
+textarea:hover, input[type='text']:hover, input[type='password']:hover, select:hover {border-color: #aaa;}
+textarea:focus, input[type='text']:focus, input[type='password']:focus, select:focus {border-color: #888; outline: 2px solid #ddd;}
+input[type='button'], input[type='submit'], input[type='checkbox'], input[type='image'], input[type='radio'], input[type='reset'], select, button {cursor: pointer;}
+input[type='hidden'] {display:none;}
+input[type='button'] {border-width: 0;}
+input[type='button']:focus {border-width: 0 ! important;}
+*/
+/* [microformats]-------------------------------------------------------------- */
